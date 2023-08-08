@@ -11,7 +11,7 @@ $short_description = $data['short_description'];
 $short_description = $conn->real_escape_string($short_description);
 $full_description = $data['full_description'];
 $full_description = $conn->real_escape_string($full_description);
-3
+
 
 
 $comment = $data['comment'];

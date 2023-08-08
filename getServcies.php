@@ -3,7 +3,7 @@ require './connection.php';
 header('Content-Type: application/json');
 // $data = json_decode(file_get_contents('php://input'), true);
 
-// var_dump($id);die;
+// var_dump("test");die;
 $filter = "";
 if(isset($_GET['id'])){
     $id = $_GET['id'];

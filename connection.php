@@ -7,10 +7,12 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "senior_db";
-$conn = new mysqli($servername, $username, $password, $dbname);
+$port = "3308";
+$conn = new mysqli($servername, $username, $password, $dbname,$port);
 
 
 if(!$conn){
-    var_dump('no connection');die;
+    // var_dump('no connection');die;
+    echo json_encode("no connection");die;
 }
 ?>
